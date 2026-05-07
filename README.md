@@ -418,5 +418,3 @@ bonus_recebido = 1000 + salario * bonus  # Exemplo simples de cálculo de bônus
 # Imprime as informações para o usuário
 print(f"{nome}, seu salário é R${salario:.2f} e seu bônus final é R${bonus_recebido:.2f}.")
 ```
-
-![imagem_0](./pics/4.png)
