@@ -1,6 +1,6 @@
 # Aula 03: DEBUG, IF, FOR, While, Listas e Dicionários em Python
 
-![imagem_01](./pics/1.png)
+
 
 Bem-vindo à terceira aula do bootcamp!
 
@@ -8,13 +8,14 @@ Hoje, vamos explorar estruturas de controle de fluxo como if, for, e while.
 
 Usamos estrutura de Controle de Fluxo para tomar decisões!
 
-![imagem_06](./pics/6.webp)
+
 ![img_fluxo](6.webp)
 
 Databricks tem workflow e trabalha bem com Airflow. 
 Airflow é a principal ferramenta de workflow
-![imagem_07](./pics/7.png)
 ![airflow](7.png)
+
+
 ### Estruturas de Controle de Fluxo
 
 Exploraremos como utilizar `if` para tomar decisões baseadas em condições, `for` para iterar sobre sequências de dados, e `while` para executar blocos de código enquanto uma condição for verdadeira.
@@ -22,7 +23,6 @@ Exploraremos como utilizar `if` para tomar decisões baseadas em condições, `f
 Para saber mais:
 [Doc](https://docs.python.org/pt-br/3/tutorial/controlflow.html)
 
-![imagem_02](./pics/2.png)
 
 ## Estruturas de Controle de Fluxo
 
@@ -172,7 +172,7 @@ for i in range(len(a)):
 [Material sobre Dicionários](https://www.youtube.com/watch?v=ZWj8o692qGY)
 
 Função Range (Stop)
-+++ sobre o assunto range( Start , Stop [ , Step ] )
++ sobre o assunto range( Start , Stop [ , Step ] )
 Esta é uma função versátil para criar listas contendo progressões aritméticas. É mais frequentemente usada em `for`, laços de repetição. Os argumentos devem ser inteiros simples. Se o argumento `step` for omitido, o valor padrão é 0. Se o argumento `start` for omitido, o valor padrão é 0. A forma completa retorna uma lista de inteiros simples. Se `step` for positivo, o último elemento é o maior menor que `stop`; se `step` for negativo, o último elemento é o menor maior que `stop` . `step` não pode ser zero (caso contrário, uma exceção será lançada). 
 
 Exemplo:`[start, start + step, start + 2 * step, ...]start + i * stepstart + i * step`  `ValueError`
